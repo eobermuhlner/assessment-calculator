@@ -2,8 +2,8 @@ package assessment;
 
 public interface CalculatorService {
 
-  /**
-   * Calculates the result of the mathematical expression defined in the arguments.
+    /**
+     * Calculates the result of the mathematical expression defined in the arguments.
      *
      * It supports the operations + - * /
      *
