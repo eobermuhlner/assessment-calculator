@@ -27,7 +27,7 @@ public class CalculatorServiceImpl {
         }
 
         if (elements[0].equals("unset")) {
-            unsetVar(elements[1]);
+            unsetVar(elements[0]);
         }
 
         double v1 = convertToDouble(elements[0]);
