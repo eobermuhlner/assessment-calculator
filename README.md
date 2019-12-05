@@ -17,6 +17,7 @@ The application has a class `CalculatorApplication` with a `main()` method.
 The application follows a service-oriented design.
 
 Two services are available:
+
 - `NumberService` converts strings into numbers
 - `CalculatorService` does the actual calculations
 
