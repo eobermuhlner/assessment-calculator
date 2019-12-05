@@ -17,10 +17,10 @@ The application has a class `CalculatorApplication` with a `main()` method.
 The application follows a service-oriented design.
 
 Two services are available:
-* `NumberService` converts strings into numbers
-* `CalculatorService` does the actual calculations
+- `NumberService` converts strings into numbers
+- `CalculatorService` does the actual calculations
 
-The contract as described by our Boss is documented in the
+The contract as described by our boss is documented in the
 Java interfaces.
 
 Everything is of course unit-tested and the application is well tested
