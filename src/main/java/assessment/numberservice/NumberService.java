@@ -1,4 +1,4 @@
-package assessment;
+package assessment.numberservice;
 
 public interface NumberService {
 
@@ -8,5 +8,5 @@ public interface NumberService {
      * @param string the string to convert
      * @return the double number
      */
-    Double convertToDouble(String string);
+    Double convertToDouble(String string) throws NumberFormatException;
 }

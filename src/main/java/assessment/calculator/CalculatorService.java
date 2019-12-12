@@ -1,4 +1,4 @@
-package assessment;
+package assessment.calculator;
 
 public interface CalculatorService {
 
@@ -10,5 +10,11 @@ public interface CalculatorService {
      * @param elements the expression
      * @return the result of the expression
      */
-    String calculate(String elements[]);
+    String calculate(String... elements);
+
+    boolean setVariable(String name, String value);
+
+    String getVariable(String name);
+
+    boolean removeVariable(String name);
 }
