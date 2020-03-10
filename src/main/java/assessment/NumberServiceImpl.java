@@ -2,7 +2,7 @@ package assessment;
 
 public class NumberServiceImpl implements NumberService {
 
-    public Double convertToDouble(String string) {
+    public double convertToDouble(String string) throws NumberFormatException {
         return Double.parseDouble(string);
     }
 }
